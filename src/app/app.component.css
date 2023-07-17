@@ -1,0 +1,45 @@
+.Popup{
+    width: 400px;
+    margin: 50px auto;
+    background-color: cornsilk;
+    text-align: center;
+    padding: 20px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+h2{
+    color: #d61d64;
+}
+.card{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+Input{
+    width: 48%;
+    margin-top: 10px;
+}
+.left-Input{
+    margin-right: 12px;
+}
+
+.p-button1{
+    width: 100%;
+    background-color: #d61d64 !important;
+    outline: darkred;
+    margin: 20px 0;
+}
+.Close-btn{
+    float: right;
+}
+.Back-btn{
+    float: left;
+}
+p-header{
+    width: 100%;
+    display: block;
+    color: black;
+    font-weight: 800;
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 5px;
+}

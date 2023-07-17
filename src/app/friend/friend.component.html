@@ -1,0 +1,21 @@
+<div class="Popup" *ngIf="Popup">
+    
+    <div class="heading">
+        <a class="Back-btn" (click)="Back()"><i class="bi bi-arrow-left"></i></a>
+
+        <p-button class="Close-btn" icon="pi pi-times" styleClass="p-button-rounded p-button-danger p-button-text" [style]="{width:'25px', height:'25px'}" (onClick)="Close()"></p-button>
+    
+        <h2>Let's Set Up Your Friend Account</h2>
+    </div>
+    <form >
+        <p-header>Profile For</p-header>
+        <p-dropdown name="selectedCity"  [options]="cities" optionLabel="name" [(ngModel)]="selectedCity" [style]="{width: '100%'}"  (onChange)="OnSelect(selectedCity?.name)"></p-dropdown>
+        <p-header>Email</p-header>
+        <input type="email" name="email" id="email">
+
+        <p-header>Password</p-header>
+        <input type="password" name="pasw" id="pasw">
+
+        <button pButton pRipple label="Next" class="p-button1" (click)="Next()"></button>
+    </form>
+</div>

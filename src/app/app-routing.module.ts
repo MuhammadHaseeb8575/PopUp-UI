@@ -2,8 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SelfComponent } from './self/self.component';
 import { FriendComponent } from './friend/friend.component';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
+  {path: '..', component:AppComponent},
   {path:'self', component:SelfComponent},
   {path: 'Friend', component:FriendComponent}
 ];

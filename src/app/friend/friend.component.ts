@@ -30,7 +30,7 @@ Popup:boolean= true;
   }
 
   Back():void{
-    this.router.navigate(["./"])
+    this.router.navigate(["/self"])
   }
 
   SelectedItem = "";

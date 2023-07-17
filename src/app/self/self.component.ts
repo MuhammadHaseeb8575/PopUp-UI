@@ -22,11 +22,10 @@ export class SelfComponent {
             { name: 'Friend', code: 'PRS' }
         ];
     }
-
-Popup:boolean= true;
+Popup2:boolean= true;
 
   Close(){
-    this.Popup = false
+    this.Popup2 = false
     this.router.navigate([""])
   }
 
@@ -39,11 +38,13 @@ Popup:boolean= true;
   OnSelect(value:any):void{
     this.SelectedItem = value
    alert(this.SelectedItem)
+   this.router.navigate([this.SelectedItem])
+  this.Popup2 = false
   }
 
   Next():void{
     this.router.navigate([this.SelectedItem])
-    this.Popup = false
+    this.Popup2 = false
   }
   
 }

@@ -40,6 +40,8 @@ Popup:boolean= false;
   OnSelect(value:any):void{
     this.SelectedItem = value
    alert(this.SelectedItem)
+   this.router.navigate([this.SelectedItem])
+  this.Popup = false
   }
 
   Next():void{

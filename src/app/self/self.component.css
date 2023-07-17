@@ -1,4 +1,4 @@
-.Popup{
+.Popup2{
     width: 420px;
     margin: 50px auto;
     background-color: cornsilk;
@@ -17,7 +17,7 @@ h2{
 Input{
     width: 100%;
     margin-top: 10px;
-    height: 35px;
+    height: 42px;
     border: 1px solid lightblue;
     padding: 5px;
     border-radius: 4px;
